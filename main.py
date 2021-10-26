@@ -6,7 +6,7 @@ import seaborn as sns
 import tensorflow as tf
 import keras
 
-# Set GPU config for tf
+# Set GPU config for tensorflow
 gpus = tf.config.list_physical_devices('GPU')
 if gpus:
     try:
